@@ -6,7 +6,9 @@ import Teachers from "../Teachers/Teachers";
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      <div className="m-5">
+        <Banner></Banner>
+      </div>
       <h1>This is Home</h1>
       <Events></Events>
       <Teachers></Teachers>
