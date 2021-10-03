@@ -1,0 +1,5 @@
+.linkRoute:hover {
+  color: #564fff;
+  text-decoration: underline;
+  transition: 0.3s;
+}
