@@ -10,7 +10,7 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="row container mx-auto mt-5">
+    <div className="row container mx-auto my-5">
       <div className="col-md-12 text-center">
         <h5 className="custom-text-color">Education For Everyone</h5>
         <h2 style={{ fontSize: "3rem" }}>Learn About Our Work Culture At Devschool</h2>

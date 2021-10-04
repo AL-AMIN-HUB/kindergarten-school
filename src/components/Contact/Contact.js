@@ -14,7 +14,7 @@ const Contact = () => {
         <input type="email" placeholder="Your Email" className="form-control" />
         <br />
         <textarea name="" id="" rows="4" className="form-control"></textarea> <br />
-        <NavLink to="/home">
+        <NavLink to="/message">
           <button className="btn btn-success py-2 px-5 fs-4">Send Message</button>
         </NavLink>
       </div>

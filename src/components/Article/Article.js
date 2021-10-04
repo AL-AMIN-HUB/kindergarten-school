@@ -5,7 +5,7 @@ const Article = (props) => {
   const { subject, time, price, images, address } = props.article;
   return (
     <Col>
-      <Card>
+      <Card className="card-style border-0 shadow">
         <Card.Img variant="top" src={images} />
         <Card.Body>
           <Card.Title className="fs-6"> {address} </Card.Title>

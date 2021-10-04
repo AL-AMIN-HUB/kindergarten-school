@@ -7,6 +7,7 @@ import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
+import Message from "./components/Message/Message";
 import Pages from "./components/Pages/Pages";
 import Services from "./components/Services/Services";
 import Teachers from "./components/Teachers/Teachers";
@@ -37,6 +38,9 @@ function App() {
           </Route>{" "}
           <Route exact path="/contact">
             <Contact></Contact>
+          </Route>{" "}
+          <Route exact path="/message">
+            <Message></Message>
           </Route>{" "}
           <Route exact path="/pages">
             <Pages></Pages>

@@ -1,6 +1,7 @@
 import { faLocationArrow, faUser, faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Service.css";
 
 const Service = (props) => {
@@ -31,7 +32,9 @@ const Service = (props) => {
           </small>
           <small className="lead">$ {price}</small>
         </p>
-        <button className="fs-5 btn btn-danger">Enroll Now</button>
+        <NavLink to="/contact">
+          <button className="fs-5 btn btn-danger">Enroll Now</button>
+        </NavLink>
       </div>
     </div>
   );

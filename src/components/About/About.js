@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import AboutLogo from "../../images/learnabout.9cb058fb.jpg";
 import "./About.css";
 
@@ -31,8 +32,13 @@ const About = () => {
           <p className="lead">
             As a word from our heart, we love to dedicate for Kids the valuable things in Life . We go with kids to play, learn, and grow better.
           </p>
+
           <h4>
-            Have a question? <span className="link-text-color">Get Started Free</span>{" "}
+            Have a question?{" "}
+            <NavLink to="/services" className="text-decoration-none">
+              {" "}
+              <span className="link-text-color">Get Started Free</span>{" "}
+            </NavLink>{" "}
           </h4>
         </div>
       </div>
