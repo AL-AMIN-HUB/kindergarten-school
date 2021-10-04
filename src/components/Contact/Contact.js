@@ -1,6 +1,7 @@
 import { faAddressBook, faClock, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -13,7 +14,9 @@ const Contact = () => {
         <input type="email" placeholder="Your Email" className="form-control" />
         <br />
         <textarea name="" id="" rows="4" className="form-control"></textarea> <br />
-        <button className="btn btn-success py-2 px-5 fs-4">Send Message</button>
+        <NavLink to="/home">
+          <button className="btn btn-success py-2 px-5 fs-4">Send Message</button>
+        </NavLink>
       </div>
       <div className="shadow p-5 col-12 col-md-5">
         <h3 style={{ fontSize: "3rem" }}>Address</h3>
