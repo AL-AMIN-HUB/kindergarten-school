@@ -34,11 +34,10 @@ const About = () => {
           </p>
 
           <h4>
-            Have a question?{" "}
+            Have a question?
             <NavLink to="/services" className="text-decoration-none">
-              {" "}
               <span className="link-text-color">Get Started Free</span>{" "}
-            </NavLink>{" "}
+            </NavLink>
           </h4>
         </div>
       </div>
