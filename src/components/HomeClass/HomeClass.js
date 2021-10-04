@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const HomeClass = (props) => {
+  // console.log(props.class);
   const { className, price, lesson, students, location, Thumb } = props.class;
   return (
     <div className="col-md-4 my-3">
@@ -30,7 +31,6 @@ const HomeClass = (props) => {
           </small>
           <small className="lead">$ {price}</small>
         </p>
-        <p> </p>
       </div>
     </div>
   );

@@ -21,6 +21,7 @@ const Events = () => {
         </div>
       </div>
       <Articles></Articles>
+
       <div className="container row banner-bg py-5 text-white mx-auto lesson my-5 text-center shadow">
         <div className="col-6 col-md-3">
           <h3 style={{ fontSize: "4rem" }}>780</h3>

@@ -6,6 +6,7 @@ import HomeClass from "../HomeClass/HomeClass";
 import "./HomeService.css";
 
 const HomeService = () => {
+  // state declare
   const [homeService, setHomeService] = useState([]);
 
   useEffect(() => {

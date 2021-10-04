@@ -1,9 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Row } from "react-bootstrap";
 import Teacher from "../Teacher/Teacher";
 
 const Teachers = () => {
+  // state declare
   const [teachers, setTeachers] = useState([]);
   useEffect(() => {
     fetch("./teacherDb.JSON")
@@ -20,10 +22,12 @@ const Teachers = () => {
           in its self-driving stack has made the shift to trucks possible. Aurora has said its FirstLight.
         </p>
       </div>
-      <div className="row container mx-auto">
-        {teachers.map((teacher) => (
-          <Teacher key={teacher.name} teacher={teacher}></Teacher>
-        ))}
+      <div className="container mx-auto">
+        <Row xs={1} sm={2} md={4} className="g-4">
+          {teachers.map((teacher) => (
+            <Teacher key={teacher.name} teacher={teacher}></Teacher>
+          ))}
+        </Row>
       </div>
     </div>
   );

@@ -1,20 +1,26 @@
 import React from "react";
+import { Card, Col } from "react-bootstrap";
 import "./Teacher.css";
 
 const Teacher = (props) => {
+  // destructuring
   const { name, role, teacherThumb } = props.teacher;
   return (
-    <div className="col-12 col-md-3">
-      <div className="card m-3 teacher-div">
-        <img className="img-fluid teacher-img" src={teacherThumb} alt="" />
-        <div className=" bg-white details w-75 text-center p-2 rounded-3 shadow">
-          <h5> {name} </h5>
-          <p>
-            <small className="role"> {role} </small>
-          </p>
-        </div>
-      </div>
-    </div>
+    <Col>
+      <Card className="m-3 teacher-div">
+        <Card.Img variant="top" className="img-fluid teacher-img" src={teacherThumb} />
+        <Card.Body className=" bg-white details w-75 text-center p-2 rounded-3 shadow">
+          <Card.Title>
+            <h5> {name} </h5>
+          </Card.Title>
+          <Card.Text>
+            <p>
+              <small className="role"> {role} </small>
+            </p>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
   );
 };
 
