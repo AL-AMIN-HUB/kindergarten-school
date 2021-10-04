@@ -17,7 +17,7 @@ const Contact = () => {
         <NavLink to="/message">
           <button className="btn btn-success py-2 px-5 fs-4">Send Message</button>
         </NavLink>
-      </div>
+      </div> 
       <div className="shadow p-5 col-12 col-md-5">
         <h3 style={{ fontSize: "3rem" }}>Address</h3>
         <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>

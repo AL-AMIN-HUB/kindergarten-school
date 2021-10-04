@@ -36,7 +36,7 @@ const About = () => {
           <h4>
             Have a question?
             <NavLink to="/services" className="text-decoration-none">
-              <span className="link-text-color">Get Started Free</span>{" "}
+              <span className="link-text-color">Get Started Free</span>
             </NavLink>
           </h4>
         </div>
