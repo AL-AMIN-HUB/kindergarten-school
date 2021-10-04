@@ -1,9 +1,7 @@
 # Kindergarten School
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project Live site Link here[clicked](https://react-kindergarten-school-assign9.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `yarn start`
+In the project uses:✔ React JS, React Router, React Bootstrap, CSS3, Font Awesome Icon.

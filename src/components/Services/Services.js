@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import Service from "../Service/Service";
 
 const Services = () => {
@@ -26,9 +25,6 @@ const Services = () => {
           <Service key={service.className} service={service}></Service>
         ))}
       </div>
-      <NavLink className="text-end" to="/home">
-        <button className="btn btn-warning py-2 fs-5 px-3 mb-5">Back Home Teacher</button>
-      </NavLink>
     </div>
   );
 };

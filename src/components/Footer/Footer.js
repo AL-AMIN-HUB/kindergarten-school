@@ -14,7 +14,7 @@ const Footer = () => {
           <input
             type="text"
             className="form-control fs-5"
-            placeholder="Enter your e-mail number here"
+            placeholder="Enter your e-mail address here"
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
           />
