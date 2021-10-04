@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import BannerImg from "../../slider.129d1012.svg";
 
 const Banner = () => {
@@ -17,7 +18,9 @@ const Banner = () => {
           </small>
         </p>
         <button className="btn btn-outline-light py-2 px-4 me-4 mt-2 fs-4">Apply Now</button>
-        <button className="btn btn-outline-light py-2 px-4  mt-2 fs-4">Learn More</button>
+        <NavLink to="/about">
+          <button className="btn btn-outline-light py-2 px-4  mt-2 fs-4">Learn More</button>
+        </NavLink>
       </div>
       <div>
         <img src={BannerImg} alt="" />
