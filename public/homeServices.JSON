@@ -46,29 +46,5 @@
     "location": "Alice Bohm , Linda Glendell",
     "price": 90,
     "Thumb": "https://i.ibb.co/Rp13mnD/work2-cf6a672a.jpg"
-  },
-  {
-    "className": "History",
-    "lesson": "13 Lessons",
-    "students": "20 Students",
-    "location": "Alice Bohm , Linda Glendell",
-    "price": 90,
-    "Thumb": "https://i.ibb.co/pZzxx7K/blog3-6f3bec1f.jpg"
-  },
-  {
-    "className": "Civics",
-    "lesson": "13 Lessons",
-    "students": "20 Students",
-    "location": "Alice Bohm , Linda Glendell",
-    "price": 90,
-    "Thumb": "https://i.ibb.co/kqPXDM5/blog2-8a1e528f.jpg"
-  },
-  {
-    "className": "Arabi",
-    "lesson": "13 Lessons",
-    "students": "20 Students",
-    "location": "Alice Bohm , Linda Glendell",
-    "price": 90,
-    "Thumb": "https://i.ibb.co/9nxBkWs/blog-0419b18d.jpg"
   }
 ]

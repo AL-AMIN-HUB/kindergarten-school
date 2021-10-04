@@ -1,14 +1,16 @@
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Service from "../Service/Service";
+import HomeClass from "../HomeClass/HomeClass";
 
-const Services = () => {
-  const [services, setServices] = useState([]);
+const HomeService = () => {
+  const [homeService, setHomeService] = useState([]);
 
   useEffect(() => {
-    fetch("./allServices.JSON")
+    fetch("./homeServices.JSON")
       .then((res) => res.json())
-      .then((data) => setServices(data));
+      .then((data) => setHomeService(data));
   }, []);
   return (
     <div className="row container mx-auto mt-5">
@@ -22,15 +24,17 @@ const Services = () => {
       </div>
       <h2 className="pb-4">Services</h2>
       <div className="row container mx-auto">
-        {services.map((service) => (
-          <Service key={service.className} service={service}></Service>
+        {homeService.map((serviceHome) => (
+          <HomeClass key={serviceHome.id} class={serviceHome}></HomeClass>
         ))}
       </div>
-      <NavLink className="text-end" to="/home">
-        <button className="btn btn-warning py-2 fs-4 px-3">Go Back Home</button>
+      <NavLink className="text-end" to="/services">
+        <button className="btn btn-warning py-2 px-4 fs-4">
+          Learn More <FontAwesomeIcon icon={faArrowRight} />
+        </button>{" "}
       </NavLink>
     </div>
   );
 };
 
-export default Services;
+export default HomeService;
