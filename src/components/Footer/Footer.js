@@ -7,6 +7,23 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-bg text-white p-5">
+      <div className="text-center">
+        <h3 style={{ fontSize: "3rem" }}>Subscribe Newsletter</h3>
+        <p>Enter your email address to register to our newsletter delivered on a regular basis!</p>
+        <div className="input-group mb-3 w-50 mx-auto mb-5">
+          <input
+            type="text"
+            className="form-control fs-5"
+            placeholder="Enter your e-mail number here"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button className="btn btn-success px-4 fs-5" type="button" id="button-addon2">
+            SUBMIT
+          </button>
+        </div>
+      </div>
+
       <div className="row container mx-auto">
         <div className="col-6 col-md-4 col-lg-4 footer-icon">
           <h3> Contact Us</h3>
@@ -16,20 +33,20 @@ const Footer = () => {
           </p>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faMailBulk} /> Mail: alaminsbl***@gmail.com
+            <FontAwesomeIcon icon={faMailBulk} /> Mail: alaminsbl502@gmail.com
           </p>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faAddressBook} /> Address: Basupara Road, Khulna, Bangladesh
+            <FontAwesomeIcon icon={faAddressBook} /> Address: 3366 Jefferson Street, NEW HAMPTON
           </p>
           <p>
             {" "}
             <FontAwesomeIcon icon={faClock} /> Working day: 9am - 5pm EST, Monday - Friday
           </p>
-          <i class="fab fa-facebook-f p-2 fs-5  fw-bold rounded-circle me-2"></i>
-          <i class="fab fa-twitter p-2 fs-5  fw-bold rounded-circle me-2"></i>
-          <i class="fab fa-linkedin-in p-2 fs-5  fw-bold rounded-circle me-2"></i>
-          <i class="fab fa-instagram-square p-2 fs-5  fw-bold rounded-circle me-2"></i>
+          <i className="fab fa-facebook-f p-2 fs-5  fw-bold rounded-circle me-2"></i>
+          <i className="fab fa-twitter p-2 fs-5  fw-bold rounded-circle me-2"></i>
+          <i className="fab fa-linkedin-in p-2 fs-5  fw-bold rounded-circle me-2"></i>
+          <i className="fab fa-instagram-square p-2 fs-5  fw-bold rounded-circle me-2"></i>
         </div>
         <div className="col-6 col-md-4 col-lg-4">
           <h3>Information</h3>

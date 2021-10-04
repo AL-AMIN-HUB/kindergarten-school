@@ -1,0 +1,7 @@
+.card-style:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.lesson {
+  border-radius: 1rem;
+}

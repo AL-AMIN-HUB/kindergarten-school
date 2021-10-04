@@ -27,11 +27,12 @@ const Contact = () => {
         </p>
         <p>
           {" "}
-          <FontAwesomeIcon icon={faMailBulk} /> <span className="custom-text-color fs-5">Mail:</span> alaminsbl***@gmail.com
+          <FontAwesomeIcon icon={faMailBulk} /> <span className="custom-text-color fs-5">Mail:</span> alaminsbl502@gmail.com
         </p>
         <p>
           {" "}
-          <FontAwesomeIcon icon={faAddressBook} /> <span className="custom-text-color fs-5">Address:</span> Basupara Road, Khulna, Bangladesh
+          <FontAwesomeIcon icon={faAddressBook} /> <span className="custom-text-color fs-5">Address:</span> 4297 Libby Street, Beverly Hills,
+          California
         </p>
         <p>
           {" "}
