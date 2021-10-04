@@ -27,7 +27,7 @@ const Services = () => {
         ))}
       </div>
       <NavLink className="text-end" to="/home">
-        <button className="btn btn-warning py-2 fs-4 px-3">Go Back Home</button>
+        <button className="btn btn-warning py-2 fs-5 px-3 mb-5">Back Home Teacher</button>
       </NavLink>
     </div>
   );

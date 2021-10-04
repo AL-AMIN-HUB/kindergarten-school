@@ -31,7 +31,7 @@ const Service = (props) => {
           </small>
           <small className="lead">$ {price}</small>
         </p>
-        <p> </p>
+        <button className="fs-5 btn btn-danger">Enroll Now</button>
       </div>
     </div>
   );

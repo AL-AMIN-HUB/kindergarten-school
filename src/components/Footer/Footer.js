@@ -12,15 +12,15 @@ const Footer = () => {
           <h3> Contact Us</h3>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faPhone} /> Phone: +1 516 231 1313
+            <FontAwesomeIcon icon={faPhone} /> Phone: +888 01779 26 **
           </p>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faMailBulk} /> Mail: 0devdesign.studio@gmail.com
+            <FontAwesomeIcon icon={faMailBulk} /> Mail: alaminsbl***@gmail.com
           </p>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faAddressBook} /> Address: 3366 Jefferson Street, NEW HAMPTON, IA
+            <FontAwesomeIcon icon={faAddressBook} /> Address: Basupara Road, Khulna, Bangladesh
           </p>
           <p>
             {" "}
