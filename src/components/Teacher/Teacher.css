@@ -1,0 +1,25 @@
+.teacher-div {
+  overflow: hidden;
+  position: relative;
+}
+.teacher-div img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.details {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+}
+
+.role {
+  display: none;
+}
+.details p {
+  margin-bottom: 0;
+}
+
+.details:hover .role {
+  display: block;
+}
