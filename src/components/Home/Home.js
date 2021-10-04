@@ -8,7 +8,7 @@ import Teachers from "../Teachers/Teachers";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="m-5">
         <Banner></Banner>
       </div>

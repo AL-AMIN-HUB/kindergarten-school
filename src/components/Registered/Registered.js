@@ -8,7 +8,7 @@ const Registered = () => {
   return (
     <div className="row row-cols-1 row-cols-md-2 py-5">
       <div>
-        <img className="img-fluid h-100" src={Register} alt="" />
+        <img className="h-100" src={Register} alt="" />
       </div>
       <div className="training-bg-color text-white p-5">
         <h5>Why Hesitate To Register?</h5>
